@@ -27,3 +27,16 @@ img {
     max-width: 100%;
     display: block;
 }
+
+/* Header */
+header {
+    padding: 40px;
+    color: #FFF;
+    background-color: #004E2D;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5em;
+}
