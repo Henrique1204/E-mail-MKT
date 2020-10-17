@@ -1,0 +1,29 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+html {
+    background-color: #111;
+}
+
+body {
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    background-color: #FFF;
+}
+
+a {
+    text-decoration: none;
+    color: #2672CC;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
