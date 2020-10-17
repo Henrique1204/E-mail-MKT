@@ -18,12 +18,6 @@ body {
     background-color: #FFF;
 }
 
-@media (max-width: 600px) {
-    body {
-        margin: 0;
-    }
-}
-
 header, main, footer {
     padding: 40px;
 }
@@ -218,4 +212,19 @@ footer h2, footer h3 {
 
 .aviso h2 {
     color: #F61515;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    body {
+        margin: 0;
+    }
+
+    header, main, footer {
+        padding: 40px 20px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
 }
